@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "---Checking if 'accServer.exe' is present---"
 if [ ! -f ${DATA_DIR}/accServer.exe ]; then
+	touch ${DATA_DIR}/place-accServer.exe-here
 	echo "--------------------------------------------------"
 	echo "---Assetto Corsa Competizione Server executable---"
 	echo "---not found, please be sure to place it in the---"
@@ -14,6 +15,9 @@ if [ ! -f ${DATA_DIR}/accServer.exe ]; then
 	echo "--------------------------------------------------"
 	sleep infinity
 else
+	if [ -f ${DATA_DIR}/place-accServer.exe-here ]; then
+		rm ${DATA_DIR}/place-accServer.exe-here
+	fi
 	echo "---'accServer.exe' found, continuing...---"
 fi
 
