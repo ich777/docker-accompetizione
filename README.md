@@ -23,7 +23,7 @@ docker run --name AssettoCorsaCompetizione -d \
 	--env 'GID=100' \
 	--env 'UMASK=000' \
 	--env 'DATA_PERM=770' \
-	--volume /mnt/user/appdata/assettocorsacompetizione:/acc \
+	--volume /path/to/assettocorsacompetizione:/acc \
 	ich777/accompetizione-server
 ```
 
