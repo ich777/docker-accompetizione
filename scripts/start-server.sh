@@ -8,7 +8,7 @@ if [ ! -f ${DATA_DIR}/accServer.exe ]; then
 	echo "-------root folder of the server directory!-------"
 	echo "----You find your 'accServer.exe' in your game----"
 	echo "-----directory in the 'server' folder, please-----"
-	echo "-------restart the container if the file is-------"
+	echo "---restart the container when the executable is---"
 	echo "------------------copied over!--------------------"
 	echo "--------------------------------------------------"
 	echo "--------Putting server into sleep mode!-----------"
