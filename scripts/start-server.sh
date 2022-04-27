@@ -13,6 +13,7 @@ if [ ! -f ${DATA_DIR}/accServer.exe ]; then
 	echo "--------------------------------------------------"
 	echo "--------Putting server into sleep mode!-----------"
 	echo "--------------------------------------------------"
+	chmod -R 777 ${DATA_DIR}
 	sleep infinity
 else
 	if [ -f ${DATA_DIR}/place-accServer.exe-here ]; then
