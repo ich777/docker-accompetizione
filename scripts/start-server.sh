@@ -3,7 +3,7 @@ echo "---Checking if 'accServer.exe' is present---"
 if [ ! -f ${DATA_DIR}/accServer.exe ]; then
 	touch ${DATA_DIR}/place-accServer.exe-here
 	echo "--------------------------------------------------"
-	echo "---Assetto Corsa Competizione Server executable---"
+	echo "---Assetto Corsa Competitione Server executable---"
 	echo "---not found, please be sure to place it in the---"
 	echo "-------root folder of the server directory!-------"
 	echo "----You find your 'accServer.exe' in your game----"
