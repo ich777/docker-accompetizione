@@ -3,7 +3,7 @@ This Docker will run the AssettoCorsa Competizione Server.
 
 **ATTENTION:** Please download the Assetto Corsa Competizione Dedicated Server from the Tools section in Steam. After the download finished right click Assetto Corsa Competizione Dedicated Server -> Manage -> Browse local files and copy over the 'accServer.exe' from the directory .../server/accServer.exe to the root directory from this container and restart the container.
 
->**NOTE** The initial servername and credentials are: 'ACC Docker Server' Password: 'Docker' AdminPassword: 'adminDocker' (all config files are located in the '/cfg' directory in your serverfolder).
+**NOTE** The initial servername and credentials are: 'ACC Docker Server' Password: 'Docker' AdminPassword: 'adminDocker' (all config files are located in the '/cfg' directory in your serverfolder).
 
 ## Env params
 | Name | Value | Example |
