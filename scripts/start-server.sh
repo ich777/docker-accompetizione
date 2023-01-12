@@ -2,17 +2,20 @@
 echo "---Checking if 'accServer.exe' is present---"
 if [ ! -f ${DATA_DIR}/accServer.exe ]; then
 	touch ${DATA_DIR}/place-accServer.exe-here
-	echo "--------------------------------------------------"
-	echo "---Assetto Corsa Competitione Server executable---"
-	echo "---not found, please be sure to place it in the---"
-	echo "-------root folder of the server directory!-------"
-	echo "----You find your 'accServer.exe' in your game----"
-	echo "-----directory in the 'server' folder, please-----"
-	echo "---restart the container when the executable is---"
-	echo "------------------copied over!--------------------"
-	echo "--------------------------------------------------"
-	echo "--------Putting server into sleep mode!-----------"
-	echo "--------------------------------------------------"
+	echo "+--------------------------------------------------------"
+	echo "| Assetto Corsa Competizione Server executable not found!"
+	echo "| Please be sure to place it in the root folder from the"
+	echo "| Docker container!"
+	echo "|"
+	echo "| You have to download the Assetto Corsa Competizione"
+	echo "| Dedicated Server from the Tools section in Steam."
+	echo "| After the download finished right click Assetto Corsa"
+	echo "| Competizione Dedicated Server -> Manage -> Browse local"
+	echo "| files and copy over the 'accServer.exe' from the"
+	echo "| directory .../server/accServer.exe to the root directory"
+	echo "| from this Docker container and restart the container."
+	echo "+--------------------------------------------------------"
+     
 	chmod -R 777 ${DATA_DIR}
 	sleep infinity
 else
