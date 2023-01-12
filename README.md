@@ -1,8 +1,7 @@
 # AssettoCorsa Competizione Server in Docker optimized for Unraid
 This Docker will run the AssettoCorsa Competizione Server.
 
-ATTENTION: You have to copy over the 'accServer.exe' in your server directory, you can find it in your GAMEDIRECTORY/accServer.exe
-Let the container start up for the first time, copy over the file and then restart the container.
+**ATTENTION:** Please download the Assetto Corsa Competizione Dedicated Server from the Tools section in Steam. After the download finished right click Assetto Corsa Competizione Dedicated Server -> Manage -> Browse local files and copy over the 'accServer.exe' from the directory .../server/accServer.exe to the root directory from this container and restart the container.
 
 >**NOTE** The initial servername and credentials are: 'ACC Docker Server' Password: 'Docker' AdminPassword: 'adminDocker' (all config files are located in the '/cfg' directory in your serverfolder).
 
