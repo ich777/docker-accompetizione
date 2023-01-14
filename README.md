@@ -5,7 +5,7 @@ This Docker will run the AssettoCorsa Competizione Server.
 
 **NOTE** The initial servername and credentials are: 'ACC Docker Server' Password: 'Docker' AdminPassword: 'adminDocker' (all config files are located in the '/cfg' directory in your serverfolder).
 
-**Server List:** Please note that it takes one or two minutes after the container is startet that the game is visible on the in game server list.
+**Server List:** Please note that it takes a few minutes after the container is startet that the game is visible on the in game server list.
 
 ## Env params
 | Name | Value | Example |
